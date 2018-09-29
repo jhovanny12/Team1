@@ -12,6 +12,11 @@
 		C24B8BDA215FD155009BB1A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24B8BD8215FD155009BB1A7 /* Main.storyboard */; };
 		C24B8BDC215FD160009BB1A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24B8BDB215FD160009BB1A7 /* Assets.xcassets */; };
 		C24B8BDF215FD160009BB1A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24B8BDD215FD160009BB1A7 /* LaunchScreen.storyboard */; };
+		C24B8BE7215FD53C009BB1A7 /* RoundedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BE6215FD53C009BB1A7 /* RoundedButtons.swift */; };
+		C24B8BED215FE2E9009BB1A7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BEC215FE2E9009BB1A7 /* SignUpViewController.swift */; };
+		C24B8BEF215FE305009BB1A7 /* AdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BEE215FE305009BB1A7 /* AdminHomeViewController.swift */; };
+		C24B8BF3215FF5BB009BB1A7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BF1215FF5BB009BB1A7 /* CustomTableViewCell.swift */; };
+		C24B8BF4215FF5BC009BB1A7 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24B8BF2215FF5BB009BB1A7 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		C24B8BDB215FD160009BB1A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C24B8BDE215FD160009BB1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C24B8BE0215FD160009BB1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24B8BE6215FD53C009BB1A7 /* RoundedButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtons.swift; sourceTree = "<group>"; };
+		C24B8BEC215FE2E9009BB1A7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C24B8BEE215FE305009BB1A7 /* AdminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeViewController.swift; sourceTree = "<group>"; };
+		C24B8BF1215FF5BB009BB1A7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		C24B8BF2215FF5BB009BB1A7 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		C24B8BD3215FD155009BB1A7 /* TaskManagement */ = {
 			isa = PBXGroup;
 			children = (
+				C24B8BF0215FF561009BB1A7 /* AdminCell */,
 				C24B8BD4215FD155009BB1A7 /* AppDelegate.swift */,
 				C24B8BD6215FD155009BB1A7 /* ViewController.swift */,
+				C24B8BEC215FE2E9009BB1A7 /* SignUpViewController.swift */,
+				C24B8BEE215FE305009BB1A7 /* AdminHomeViewController.swift */,
 				C24B8BD8215FD155009BB1A7 /* Main.storyboard */,
 				C24B8BDB215FD160009BB1A7 /* Assets.xcassets */,
 				C24B8BDD215FD160009BB1A7 /* LaunchScreen.storyboard */,
 				C24B8BE0215FD160009BB1A7 /* Info.plist */,
+				C24B8BE6215FD53C009BB1A7 /* RoundedButtons.swift */,
 			);
 			path = TaskManagement;
+			sourceTree = "<group>";
+		};
+		C24B8BF0215FF561009BB1A7 /* AdminCell */ = {
+			isa = PBXGroup;
+			children = (
+				C24B8BF1215FF5BB009BB1A7 /* CustomTableViewCell.swift */,
+				C24B8BF2215FF5BB009BB1A7 /* CustomTableViewCell.xib */,
+			);
+			path = AdminCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +147,7 @@
 			files = (
 				C24B8BDF215FD160009BB1A7 /* LaunchScreen.storyboard in Resources */,
 				C24B8BDC215FD160009BB1A7 /* Assets.xcassets in Resources */,
+				C24B8BF4215FF5BC009BB1A7 /* CustomTableViewCell.xib in Resources */,
 				C24B8BDA215FD155009BB1A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24B8BF3215FF5BB009BB1A7 /* CustomTableViewCell.swift in Sources */,
 				C24B8BD7215FD155009BB1A7 /* ViewController.swift in Sources */,
+				C24B8BE7215FD53C009BB1A7 /* RoundedButtons.swift in Sources */,
+				C24B8BED215FE2E9009BB1A7 /* SignUpViewController.swift in Sources */,
 				C24B8BD5215FD155009BB1A7 /* AppDelegate.swift in Sources */,
+				C24B8BEF215FE305009BB1A7 /* AdminHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
