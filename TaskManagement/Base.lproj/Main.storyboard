@@ -53,7 +53,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign-Up"/>
                                 <connections>
-                                    <segue destination="xe6-rp-vvT" kind="show" id="44v-wS-wxK"/>
+                                    <segue destination="xe6-rp-vvT" kind="show" identifier="SegueToSignUp" id="44v-wS-wxK"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkS-T5-iqt">
@@ -121,7 +121,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="viewTable" destination="m7q-QO-SZX" id="FLp-tV-y4z"/>
-                        <segue destination="aCQ-zb-kUA" kind="show" id="Bn6-fN-w7w"/>
+                        <segue destination="aCQ-zb-kUA" kind="show" identifier="SegueAdminToTaskDetails" id="Bn6-fN-w7w"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QnS-ce-c0Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
