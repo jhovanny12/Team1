@@ -279,7 +279,7 @@ FlNlZ3VlVG9Ib21lA
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
-                        <segue destination="EIR-Jl-NSi" kind="show" id="8Z0-Ap-Ypj"/>
+                        <segue destination="EIR-Jl-NSi" kind="show" identifier="segueHomeToTaskDetails" id="8Z0-Ap-Ypj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pnV-nc-djn" userLabel="First Responder" sceneMemberID="firstResponder"/>
