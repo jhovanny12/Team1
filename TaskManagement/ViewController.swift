@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     //added by edward, need to retrive data from DB
     var handel : DatabaseHandle!
 
+    @IBAction func btnLogin(_ sender: Any) {
+        performSegue(withIdentifier: "segueAdminToHome", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
