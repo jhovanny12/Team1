@@ -84,7 +84,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="whN-5Q-lOY"/>
                     <connections>
-                        <segue destination="3Xo-IL-Rds" kind="showDetail" identifier="segueAdminToHome" id="td7-gc-ncY"/>
+                        <segue destination="3Xo-IL-Rds" kind="show" identifier="segueAdminToHome" id="td7-gc-ncY"/>
                         <segue destination="ohH-Ki-3IV" kind="showDetail" id="Q2a-wA-zhV">
                             <string key="identifier" base64-UTF8="YES">
 FlNlZ3VlVG9Ib21lA
@@ -95,6 +95,36 @@ FlNlZ3VlVG9Ib21lA
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="676" y="671.51424287856082"/>
+        </scene>
+        <!--Add User-->
+        <scene sceneID="ehh-74-CIa">
+            <objects>
+                <viewController title="Add User" id="iSF-JT-eyS" customClass="AddUserViewController" customModule="TaskManagement" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IPm-uD-xu8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ALM-T5-fda"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ftS-Re-94m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028" y="-465"/>
+        </scene>
+        <!--Add Task-->
+        <scene sceneID="3Qm-Z3-k3p">
+            <objects>
+                <viewController title="Add Task" id="hC6-R0-zk6" customClass="AddTaskViewController" customModule="TaskManagement" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lN3-Rs-ru9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3X1-87-9e1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vPg-VG-a4E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1841" y="-464"/>
         </scene>
         <!--Admin Home-->
         <scene sceneID="h1b-BJ-7sI">
@@ -138,7 +168,7 @@ FlNlZ3VlVG9Ib21lA
                     <navigationItem key="navigationItem" title="Admin Home" id="3qq-oY-uC0">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="vdZ-w0-fJN">
                             <connections>
-                                <action selector="btnAdd:" destination="3Xo-IL-Rds" id="Ffi-SD-l2E"/>
+                                <action selector="btnAdd:" destination="3Xo-IL-Rds" id="V2q-8y-Zpr"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -146,6 +176,8 @@ FlNlZ3VlVG9Ib21lA
                     <connections>
                         <outlet property="viewTable" destination="m7q-QO-SZX" id="FLp-tV-y4z"/>
                         <segue destination="aCQ-zb-kUA" kind="show" identifier="SegueAdminToTaskDetails" id="Bn6-fN-w7w"/>
+                        <segue destination="iSF-JT-eyS" kind="show" identifier="segueAddUser" id="kB3-UF-zgO"/>
+                        <segue destination="hC6-R0-zk6" kind="show" identifier="segueAddTask" id="qg3-fk-ue4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QnS-ce-c0Z" userLabel="First Responder" sceneMemberID="firstResponder"/>

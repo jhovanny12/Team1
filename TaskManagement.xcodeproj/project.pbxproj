@@ -18,6 +18,8 @@
 		C24B8BEF215FE305009BB1A7 /* AdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BEE215FE305009BB1A7 /* AdminHomeViewController.swift */; };
 		C24B8BF3215FF5BB009BB1A7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BF1215FF5BB009BB1A7 /* CustomTableViewCell.swift */; };
 		C24B8BF4215FF5BC009BB1A7 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24B8BF2215FF5BB009BB1A7 /* CustomTableViewCell.xib */; };
+		C2F05ECC2187DBDB006B96DB /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F05ECB2187DBDB006B96DB /* AddUserViewController.swift */; };
+		C2F05ECE2187DBEF006B96DB /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F05ECD2187DBEF006B96DB /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		C24B8BEE215FE305009BB1A7 /* AdminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeViewController.swift; sourceTree = "<group>"; };
 		C24B8BF1215FF5BB009BB1A7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		C24B8BF2215FF5BB009BB1A7 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		C2F05ECB2187DBDB006B96DB /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		C2F05ECD2187DBEF006B96DB /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 			children = (
 				C24B8BF0215FF561009BB1A7 /* AdminCell */,
 				C24B8BD4215FD155009BB1A7 /* AppDelegate.swift */,
+				C2F05ECD2187DBEF006B96DB /* AddTaskViewController.swift */,
+				C2F05ECB2187DBDB006B96DB /* AddUserViewController.swift */,
 				C24B8BD6215FD155009BB1A7 /* ViewController.swift */,
 				C24B8BEC215FE2E9009BB1A7 /* SignUpViewController.swift */,
 				C24B8BEE215FE305009BB1A7 /* AdminHomeViewController.swift */,
@@ -164,9 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C24B8BF3215FF5BB009BB1A7 /* CustomTableViewCell.swift in Sources */,
+				C2F05ECE2187DBEF006B96DB /* AddTaskViewController.swift in Sources */,
 				C24B8BD7215FD155009BB1A7 /* ViewController.swift in Sources */,
 				C24B8BE7215FD53C009BB1A7 /* RoundedButtons.swift in Sources */,
 				C24B8BED215FE2E9009BB1A7 /* SignUpViewController.swift in Sources */,
+				C2F05ECC2187DBDB006B96DB /* AddUserViewController.swift in Sources */,
 				C24B8BD5215FD155009BB1A7 /* AppDelegate.swift in Sources */,
 				C24B8BEF215FE305009BB1A7 /* AdminHomeViewController.swift in Sources */,
 			);
