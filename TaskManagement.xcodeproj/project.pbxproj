@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04F084CCF3B9549853549F87 /* Pods_TaskManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1929EE62827A2EB8690ADE /* Pods_TaskManagement.framework */; };
+		242AA6C821890F8100CE13C4 /* UserMyJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AA6C721890F8100CE13C4 /* UserMyJobViewController.swift */; };
+		242AA6CA2189104E00CE13C4 /* UserJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AA6C92189104E00CE13C4 /* UserJobViewController.swift */; };
 		88045F6D2188DC5B0072A42F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88045F6C2188DC5B0072A42F /* GoogleService-Info.plist */; };
 		C24A80BE2187EEEA00AE5643 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		C24A80C02187F6E900AE5643 /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -19,12 +21,13 @@
 		C24B8BE7215FD53C009BB1A7 /* RoundedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BE6215FD53C009BB1A7 /* RoundedButtons.swift */; };
 		C24B8BED215FE2E9009BB1A7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BEC215FE2E9009BB1A7 /* SignUpViewController.swift */; };
 		C24B8BEF215FE305009BB1A7 /* AdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BEE215FE305009BB1A7 /* AdminHomeViewController.swift */; };
-		C24B8BF4215FF5BC009BB1A7 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24B8BF2215FF5BB009BB1A7 /* CustomTableViewCell.xib */; };
 		C2F05ECC2187DBDB006B96DB /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F05ECB2187DBDB006B96DB /* AddUserViewController.swift */; };
 		C2F05ECE2187DBEF006B96DB /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F05ECD2187DBEF006B96DB /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		242AA6C721890F8100CE13C4 /* UserMyJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMyJobViewController.swift; sourceTree = "<group>"; };
+		242AA6C92189104E00CE13C4 /* UserJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserJobViewController.swift; sourceTree = "<group>"; };
 		88045F6C2188DC5B0072A42F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BB2AD55D7A0F16B553BFAA23 /* Pods-TaskManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskManagement/Pods-TaskManagement.debug.xcconfig"; sourceTree = "<group>"; };
 		C24B8BD1215FD155009BB1A7 /* TaskManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +109,8 @@
 				C24B8BE0215FD160009BB1A7 /* Info.plist */,
 				C24B8BE6215FD53C009BB1A7 /* RoundedButtons.swift */,
 				88045F6C2188DC5B0072A42F /* GoogleService-Info.plist */,
+				242AA6C721890F8100CE13C4 /* UserMyJobViewController.swift */,
+				242AA6C92189104E00CE13C4 /* UserJobViewController.swift */,
 			);
 			path = TaskManagement;
 			sourceTree = "<group>";
@@ -238,7 +243,9 @@
 				C2F05ECE2187DBEF006B96DB /* AddTaskViewController.swift in Sources */,
 				C24B8BD7215FD155009BB1A7 /* ViewController.swift in Sources */,
 				C24B8BE7215FD53C009BB1A7 /* RoundedButtons.swift in Sources */,
+				242AA6C821890F8100CE13C4 /* UserMyJobViewController.swift in Sources */,
 				C24B8BED215FE2E9009BB1A7 /* SignUpViewController.swift in Sources */,
+				242AA6CA2189104E00CE13C4 /* UserJobViewController.swift in Sources */,
 				C24A80BE2187EEEA00AE5643 /* (null) in Sources */,
 				C2F05ECC2187DBDB006B96DB /* AddUserViewController.swift in Sources */,
 				C24B8BD5215FD155009BB1A7 /* AppDelegate.swift in Sources */,
