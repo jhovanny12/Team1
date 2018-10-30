@@ -7,6 +7,8 @@
 //
 
 import UIKit
+//added for DB to work *Ed*
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //added for DB to work *Ed*
+        FirebaseApp.configure()
         return true
     }
 
