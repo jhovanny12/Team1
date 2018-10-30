@@ -261,6 +261,9 @@
                                         <state key="normal" title="Sign-Up">
                                             <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="btnSignUpSignUp:" destination="xe6-rp-vvT" eventType="touchUpInside" id="ljg-Lb-Ypv"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -273,6 +276,11 @@
                         <viewLayoutGuide key="safeArea" id="pKS-Va-985"/>
                     </view>
                     <navigationItem key="navigationItem" title="Sign-Up" id="ehf-aF-5x1"/>
+                    <connections>
+                        <outlet property="text_signup_email" destination="u1h-8A-fd0" id="h0K-mC-9je"/>
+                        <outlet property="text_signup_name" destination="2LI-Gv-lrH" id="COG-qA-9Ss"/>
+                        <outlet property="text_signup_password" destination="HeJ-uM-oyX" id="KnX-WX-e0m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kRr-Nl-4IN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -377,9 +385,6 @@
                                     <segment title="My Jobs"/>
                                     <segment title="All Jobs"/>
                                 </segments>
-                                <connections>
-                                    <action selector="switchTableView:" destination="hcv-6d-Z1r" eventType="valueChanged" id="uab-LL-2cd"/>
-                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -397,7 +402,6 @@
                     <navigationItem key="navigationItem" title="Home" id="mml-77-iwv"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
-                        <outlet property="viewTable" destination="hEw-8E-pYJ" id="mzM-Gr-rwa"/>
                         <segue destination="EIR-Jl-NSi" kind="show" identifier="segueToTaksDetails" id="x5w-cI-Scu"/>
                         <segue destination="vi6-Mw-zVd" kind="show" identifier="segueToMyJobDetails" id="Q7k-DM-DCQ"/>
                     </connections>
