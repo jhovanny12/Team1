@@ -63,6 +63,7 @@
                                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="btnSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7rI-CA-DPS"/>
                                                     <segue destination="xe6-rp-vvT" kind="show" identifier="SegueToSignUp" id="44v-wS-wxK"/>
                                                 </connections>
                                             </button>
@@ -84,6 +85,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="whN-5Q-lOY"/>
                     <connections>
+                        <outlet property="txt_login_password" destination="fXC-Xt-ymH" id="O5t-uy-YfW"/>
+                        <outlet property="txt_login_username" destination="ONv-H6-QFz" id="zLB-H6-9pi"/>
                         <segue destination="3Xo-IL-Rds" kind="show" identifier="segueAdminToHome" id="td7-gc-ncY"/>
                         <segue destination="hcv-6d-Z1r" kind="presentation" identifier="segueToHome" id="guO-pY-St1"/>
                     </connections>

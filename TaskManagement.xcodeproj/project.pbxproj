@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C24A80BE2187EEEA00AE5643 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24A80BD2187EEEA00AE5643 /* HomeViewController.swift */; };
-		C24A80C02187F6E900AE5643 /* Pods-TaskManagement.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C24A80BF2187F6E900AE5643 /* Pods-TaskManagement.release.xcconfig */; };
+		04F084CCF3B9549853549F87 /* Pods_TaskManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1929EE62827A2EB8690ADE /* Pods_TaskManagement.framework */; };
+		88045F6D2188DC5B0072A42F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88045F6C2188DC5B0072A42F /* GoogleService-Info.plist */; };
+		C24A80BE2187EEEA00AE5643 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		C24A80C02187F6E900AE5643 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		C24B8BD5215FD155009BB1A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BD4215FD155009BB1A7 /* AppDelegate.swift */; };
 		C24B8BD7215FD155009BB1A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BD6215FD155009BB1A7 /* ViewController.swift */; };
 		C24B8BDA215FD155009BB1A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24B8BD8215FD155009BB1A7 /* Main.storyboard */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88045F6C2188DC5B0072A42F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB2AD55D7A0F16B553BFAA23 /* Pods-TaskManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskManagement/Pods-TaskManagement.debug.xcconfig"; sourceTree = "<group>"; };
 		C24B8BD1215FD155009BB1A7 /* TaskManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24B8BD4215FD155009BB1A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C24B8BD6215FD155009BB1A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		C24B8BF2215FF5BB009BB1A7 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		C2F05ECB2187DBDB006B96DB /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
 		C2F05ECD2187DBEF006B96DB /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		C8FDE1E0A2BF6BE49BF9E922 /* Pods-TaskManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskManagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskManagement/Pods-TaskManagement.release.xcconfig"; sourceTree = "<group>"; };
+		FD1929EE62827A2EB8690ADE /* Pods_TaskManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F084CCF3B9549853549F87 /* Pods_TaskManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,8 +61,8 @@
 		4E28DC6043F5AF735EDA6819 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0085EBB7960B14542240B1DE /* Pods-TaskManagement.debug.xcconfig */,
-				C24A80BF2187F6E900AE5643 /* Pods-TaskManagement.release.xcconfig */,
+				BB2AD55D7A0F16B553BFAA23 /* Pods-TaskManagement.debug.xcconfig */,
+				C8FDE1E0A2BF6BE49BF9E922 /* Pods-TaskManagement.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -63,7 +70,7 @@
 		C185EF23E7D48C3548F298BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6368435661B1D05198904067 /* Pods_TaskManagement.framework */,
+				FD1929EE62827A2EB8690ADE /* Pods_TaskManagement.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,12 +103,12 @@
 				C24B8BD6215FD155009BB1A7 /* ViewController.swift */,
 				C24B8BEC215FE2E9009BB1A7 /* SignUpViewController.swift */,
 				C24B8BEE215FE305009BB1A7 /* AdminHomeViewController.swift */,
-				C24A80BD2187EEEA00AE5643 /* HomeViewController.swift */,
 				C24B8BD8215FD155009BB1A7 /* Main.storyboard */,
 				C24B8BDB215FD160009BB1A7 /* Assets.xcassets */,
 				C24B8BDD215FD160009BB1A7 /* LaunchScreen.storyboard */,
 				C24B8BE0215FD160009BB1A7 /* Info.plist */,
 				C24B8BE6215FD53C009BB1A7 /* RoundedButtons.swift */,
+				88045F6C2188DC5B0072A42F /* GoogleService-Info.plist */,
 			);
 			path = TaskManagement;
 			sourceTree = "<group>";
@@ -179,7 +186,8 @@
 				C24B8BDC215FD160009BB1A7 /* Assets.xcassets in Resources */,
 				C24B8BF4215FF5BC009BB1A7 /* CustomTableViewCell.xib in Resources */,
 				C24B8BDA215FD155009BB1A7 /* Main.storyboard in Resources */,
-				C24A80C02187F6E900AE5643 /* Pods-TaskManagement.release.xcconfig in Resources */,
+				C24A80C02187F6E900AE5643 /* (null) in Resources */,
+				88045F6D2188DC5B0072A42F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +246,7 @@
 				C24B8BD7215FD155009BB1A7 /* ViewController.swift in Sources */,
 				C24B8BE7215FD53C009BB1A7 /* RoundedButtons.swift in Sources */,
 				C24B8BED215FE2E9009BB1A7 /* SignUpViewController.swift in Sources */,
-				C24A80BE2187EEEA00AE5643 /* HomeViewController.swift in Sources */,
+				C24A80BE2187EEEA00AE5643 /* (null) in Sources */,
 				C2F05ECC2187DBDB006B96DB /* AddUserViewController.swift in Sources */,
 				C24B8BD5215FD155009BB1A7 /* AppDelegate.swift in Sources */,
 				C24B8BEF215FE305009BB1A7 /* AdminHomeViewController.swift in Sources */,
@@ -329,7 +337,6 @@
 		};
 		C24B8BE2215FD160009BB1A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0085EBB7960B14542240B1DE /* Pods-TaskManagement.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -384,7 +391,7 @@
 		};
 		C24B8BE4215FD160009BB1A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0085EBB7960B14542240B1DE /* Pods-TaskManagement.debug.xcconfig */;
+			baseConfigurationReference = BB2AD55D7A0F16B553BFAA23 /* Pods-TaskManagement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -402,6 +409,7 @@
 		};
 		C24B8BE5215FD160009BB1A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FDE1E0A2BF6BE49BF9E922 /* Pods-TaskManagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

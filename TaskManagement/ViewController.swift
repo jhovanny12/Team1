@@ -11,6 +11,12 @@ import Firebase
 
 class ViewController: UIViewController {
     
+    //added by Rachel
+    @IBOutlet weak var txt_login_username: UITextField!
+    @IBOutlet weak var txt_login_password: UITextField!
+    
+    
+    
     //added by edward, need to add data to DB
     var ref : DatabaseReference!
     //added by edward, need to retrive data from DB
@@ -20,6 +26,10 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "segueAdminToHome", sender: self)
     }
     
+    @IBAction func btnSignUp(_ sender: Any) {
+        performSegue(withIdentifier: "SegueToSignUp", sender: self)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
