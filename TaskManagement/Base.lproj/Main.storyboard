@@ -329,7 +329,7 @@
                                     <constraint firstAttribute="width" constant="200" id="iov-T5-3qf"/>
                                     <constraint firstAttribute="height" constant="30" id="xzV-iP-adL"/>
                                 </constraints>
-                                <state key="normal" title="Acept Job">
+                                <state key="normal" title="Accept Job">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
