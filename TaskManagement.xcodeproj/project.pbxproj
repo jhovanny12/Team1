@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2475B612160175500A55030 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2475B602160175500A55030 /* GoogleService-Info.plist */; };
 		C24B8BD5215FD155009BB1A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BD4215FD155009BB1A7 /* AppDelegate.swift */; };
 		C24B8BD7215FD155009BB1A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BD6215FD155009BB1A7 /* ViewController.swift */; };
 		C24B8BDA215FD155009BB1A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24B8BD8215FD155009BB1A7 /* Main.storyboard */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C2475B602160175500A55030 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C24B8BD1215FD155009BB1A7 /* TaskManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24B8BD4215FD155009BB1A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C24B8BD6215FD155009BB1A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 				C24B8BDD215FD160009BB1A7 /* LaunchScreen.storyboard */,
 				C24B8BE0215FD160009BB1A7 /* Info.plist */,
 				C24B8BE6215FD53C009BB1A7 /* RoundedButtons.swift */,
-				C2475B602160175500A55030 /* GoogleService-Info.plist */,
 			);
 			path = TaskManagement;
 			sourceTree = "<group>";
@@ -150,7 +147,6 @@
 			files = (
 				C24B8BDF215FD160009BB1A7 /* LaunchScreen.storyboard in Resources */,
 				C24B8BDC215FD160009BB1A7 /* Assets.xcassets in Resources */,
-				C2475B612160175500A55030 /* GoogleService-Info.plist in Resources */,
 				C24B8BF4215FF5BC009BB1A7 /* CustomTableViewCell.xib in Resources */,
 				C24B8BDA215FD155009BB1A7 /* Main.storyboard in Resources */,
 			);
