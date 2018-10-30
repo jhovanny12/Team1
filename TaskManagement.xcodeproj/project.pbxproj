@@ -19,7 +19,6 @@
 		C24B8BE7215FD53C009BB1A7 /* RoundedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BE6215FD53C009BB1A7 /* RoundedButtons.swift */; };
 		C24B8BED215FE2E9009BB1A7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BEC215FE2E9009BB1A7 /* SignUpViewController.swift */; };
 		C24B8BEF215FE305009BB1A7 /* AdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BEE215FE305009BB1A7 /* AdminHomeViewController.swift */; };
-		C24B8BF3215FF5BB009BB1A7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B8BF1215FF5BB009BB1A7 /* CustomTableViewCell.swift */; };
 		C24B8BF4215FF5BC009BB1A7 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24B8BF2215FF5BB009BB1A7 /* CustomTableViewCell.xib */; };
 		C2F05ECC2187DBDB006B96DB /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F05ECB2187DBDB006B96DB /* AddUserViewController.swift */; };
 		C2F05ECE2187DBEF006B96DB /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F05ECD2187DBEF006B96DB /* AddTaskViewController.swift */; };
@@ -38,8 +37,6 @@
 		C24B8BE6215FD53C009BB1A7 /* RoundedButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtons.swift; sourceTree = "<group>"; };
 		C24B8BEC215FE2E9009BB1A7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		C24B8BEE215FE305009BB1A7 /* AdminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeViewController.swift; sourceTree = "<group>"; };
-		C24B8BF1215FF5BB009BB1A7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		C24B8BF2215FF5BB009BB1A7 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		C2F05ECB2187DBDB006B96DB /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
 		C2F05ECD2187DBEF006B96DB /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		C8FDE1E0A2BF6BE49BF9E922 /* Pods-TaskManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskManagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskManagement/Pods-TaskManagement.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,8 +113,6 @@
 		C24B8BF0215FF561009BB1A7 /* AdminCell */ = {
 			isa = PBXGroup;
 			children = (
-				C24B8BF1215FF5BB009BB1A7 /* CustomTableViewCell.swift */,
-				C24B8BF2215FF5BB009BB1A7 /* CustomTableViewCell.xib */,
 			);
 			path = AdminCell;
 			sourceTree = "<group>";
@@ -184,7 +179,6 @@
 			files = (
 				C24B8BDF215FD160009BB1A7 /* LaunchScreen.storyboard in Resources */,
 				C24B8BDC215FD160009BB1A7 /* Assets.xcassets in Resources */,
-				C24B8BF4215FF5BC009BB1A7 /* CustomTableViewCell.xib in Resources */,
 				C24B8BDA215FD155009BB1A7 /* Main.storyboard in Resources */,
 				C24A80C02187F6E900AE5643 /* (null) in Resources */,
 				88045F6D2188DC5B0072A42F /* GoogleService-Info.plist in Resources */,
@@ -241,7 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C24B8BF3215FF5BB009BB1A7 /* CustomTableViewCell.swift in Sources */,
 				C2F05ECE2187DBEF006B96DB /* AddTaskViewController.swift in Sources */,
 				C24B8BD7215FD155009BB1A7 /* ViewController.swift in Sources */,
 				C24B8BE7215FD53C009BB1A7 /* RoundedButtons.swift in Sources */,
