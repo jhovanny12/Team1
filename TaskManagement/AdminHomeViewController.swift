@@ -15,6 +15,22 @@ class AdminHomeViewController: UIViewController, UITableViewDelegate, UITableVie
     
     //definte table view
     @IBOutlet weak var viewTable: UITableView!
+    @IBAction func btnAdd(_ sender: Any) {
+        let actionsheet = UIAlertController(title: nil, message: "Make a Selection", preferredStyle: .actionSheet)
+        actionsheet.addAction(UIAlertAction(title: "Add User", style: .default, handler: {_ in
+            self.performSegue(withIdentifier: "segueAddUser", sender: self)
+            }))
+        
+        actionsheet.addAction(UIAlertAction(title: "Add Task", style: .default, handler: {_ in
+            self.performSegue(withIdentifier: "segueAddTask", sender: self)
+        }))
+        
+        actionsheet.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        
+            actionsheet.dismiss(animated: true, completion: nil)
+            self.present(actionsheet, animated: true, completion: nil)
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,10 +71,6 @@ class AdminHomeViewController: UIViewController, UITableViewDelegate, UITableVie
         viewTable.reloadData()
     }
     
-    //add button action
-    @IBAction func btnAdd(_ sender: Any) {
-        
-    }
     
     
     /*
