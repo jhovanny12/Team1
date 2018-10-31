@@ -15,7 +15,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var txt_login_username: UITextField!
     @IBOutlet weak var txt_login_password: UITextField!
     
+    var userDatabase: [String:String] = [
+                                "rachel" : "password",
+                                "edward": "password",
+                                "jhovanny": "password",
+                                "sai" : "password",
+                                "joel" : "password",
+                                "chuckNorris" : "freedom",
+                                "testUser" : "password"]
     
+    var adminDatabase = ["rachel", "edward", "jhovanny", "sai", "joel"]
     
     //added by edward, need to add data to DB
     var ref : DatabaseReference!
@@ -23,7 +32,17 @@ class ViewController: UIViewController {
     var handel : DatabaseHandle!
 
     @IBAction func btnLogin(_ sender: Any) {
-        performSegue(withIdentifier: "segueAdminToHome", sender: self)
+        let user = txt_login_username.text
+        let pass = txt_login_password.text
+        
+        if (userDatabase[user!]?.isEqual(pass))!
+        {
+            print("Successful login...Seguing now")
+            performSegue(withIdentifier: "segueAdminToHome", sender: self)
+        }
+        else if (userDatabase[user!] == nil) {
+            print("The username or password is incorrect. Please try again, or Sign Up")
+        }
     }
     
     @IBAction func btnSignUp(_ sender: Any) {
