@@ -35,13 +35,21 @@ class ViewController: UIViewController {
         let user = txt_login_username.text
         let pass = txt_login_password.text
         
-        if (userDatabase[user!]?.isEqual(pass))!
-        {
-            print("Successful login...Seguing now")
-            performSegue(withIdentifier: "segueAdminToHome", sender: self)
+        if (user == nil || userDatabase[user!] == nil) {
+            print("Please enter both a username and password.")
         }
-        else if (userDatabase[user!] == nil) {
-            print("The username or password is incorrect. Please try again, or Sign Up")
+        else if (userDatabase[user!]?.isEqual(pass))! && adminDatabase.contains(user!)
+        {
+            print("Successful Admin login...Seguing now")
+            //performSegue(withIdentifier: "segueAdminToHome", sender: self)
+        }
+        else if (userDatabase[user!]?.isEqual(pass))! && !adminDatabase.contains(user!)
+        {
+            print("Successful User login...Seguing now")
+            //performSegue(withIdentifier: "segueUserToHome", sender: self)
+        }
+        else {
+            print("The username or password is incorrect. Please sign up.")
         }
     }
     
